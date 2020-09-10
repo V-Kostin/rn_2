@@ -46,7 +46,7 @@ function App() {
   const img = images[images.length - 1];
 
   function pressMe(el) {
-    if (el.id !== images.id) {
+    if (img.id !== el.id) {
       setImages([img, el])
     }
   }

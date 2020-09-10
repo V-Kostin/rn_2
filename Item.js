@@ -6,9 +6,7 @@ import {
 import MaskedView from '@react-native-community/masked-view';
 import Animated, { useAnimatedStyle } from 'react-native-reanimated';
 import { useTiming } from './hooks/useTiming';
-import { r } from './constants'
-
-
+import { r } from './constants';
 
 function Item({ el, s }) {
     const [loading, setLoading] = useState(false);
